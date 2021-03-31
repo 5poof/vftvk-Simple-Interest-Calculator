@@ -1,6 +1,5 @@
 body{background-color:black;}
 h1{color:grey;}
 h1{font-family: Verdana,Geneva,sans-serif;}
-body{border-style: solid;}
-body{border-radius: 25px;}
-body{border-color:white;}
+div {background-color:white;}
+div {border-radius: 25px;}
