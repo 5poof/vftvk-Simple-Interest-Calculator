@@ -9,7 +9,7 @@
       <div>
         Amount <input type="number" id="principal"><br>
         <br>
-        Interest Rate <input type="range" min="0" max="20" value="50" class="slider" id="rate"><p id="dum"></p><br>
+        Interest Rate <input type="range" min="1" max="20" step="0.1" class="slider" id="rate"><p id="dum"></p><br>
         <label for="years">No. of Years</label>
         <select name="years" id="years">
           <option value="1">1</option>
@@ -24,7 +24,6 @@
           <option value="10">10</option>
         </select><br>
         <br>
-        <!--recheckthisInterest Rate: <span id="result"></span><br>-->
         <input type="button" value="Compute Interest" onClick="compute();">
       </div>
       <br>
